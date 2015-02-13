@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css" />
+	<link rel="stylesheet" type="text/css" href="elvinslider.css">
+	<style type="text/css">
+		.wrap{max-width: 960px; margin: 0 auto;}
+	</style>
+</head>
+<body>
+
+<div class="wrap">
+	<div class="thumb-slider" data-thumbshow="6" data-thumbheight="90">
+		<div class="thumb-preview"></div>
+		<div class="thumb-list-container">
+			<div class="thumb-list">
+				<div class="thumb-item">
+					<div class="thumb-img">
+						<img src="images/ranch/Image1.jpg" />
+					</div>
+				</div>
+				<div class="thumb-item">
+					<div class="thumb-img">
+						<img src="images/ranch/Image2.jpg" />
+					</div>
+				</div>
+				<div class="thumb-item">
+					<div class="thumb-img">
+						<img src="images/ranch/Image3.jpg" />
+					</div>
+				</div>
+				<div class="thumb-item">
+					<div class="thumb-img">
+						<img src="images/ranch/Image4.jpg" />
+					</div>
+				</div>
+				<div class="thumb-item">
+					<div class="thumb-img">
+						<img src="images/ranch/Image5.jpg" />
+					</div>
+				</div>
+				<div class="thumb-item">
+					<div class="thumb-img">
+						<img src="images/ranch/Image6.jpg" />
+					</div>
+				</div>
+				<div class="thumb-item">
+					<div class="thumb-img">
+						<img src="images/ranch/Image7.jpg" />
+					</div>
+				</div>
+				<div class="thumb-item">
+					<div class="thumb-img">
+						<img src="images/ranch/Image8.jpg" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="elvinslider.js"></script>
+<script type="text/javascript">
+	$(window).load(function(){
+		$('.thumb-slider').elvinslider({
+			prevButton: '<',
+			nextButton: '>'
+		});
+	});
+</script>
+
+</body>
+</html>
